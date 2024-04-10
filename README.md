@@ -1,4 +1,4 @@
-## Variation auto encoder using pytorch
+## Variation Auto Encoder using pytorch
 
 In this project we will implement a variational auto encoder (VAE) using (de)convolutional neural networks ((d)CNN) using pytorch library, so to perform several image analysis tasks to the MNIST dataset of digits. We consider 50.000 training image dataset, 10.000 validation dataset and finally the last 10.000 image dataset for test purposes. The images have $28 \times 28$ dimensions and the pixel values are normalized in the range [0,1]. We transform the dataset into tensors and we pass them through a torch data-loader so to create data samples with batch-size of 256.
 
